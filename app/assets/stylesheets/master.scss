@@ -10,13 +10,13 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
-    border: 1px solid #F7F7F7;
+    background: transparent;
+    border: 2px solid #006600;
     width: 80px;
     height: 80px;
-    margin: 10px 10px;
+    margin: 10px 10px 10px auto;
     text-align: center;
-    color: #FFF;
+    color: rgb(0, 0, 0);
     font-size: 10px;
     line-height: 16px;
     cursor: pointer;
@@ -25,24 +25,47 @@
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
+.circle:hover {
+    border: 2px solid #006600;
+    background-color: #f84342;
+    color: #FFF;
+}
+
 .slogan {
     font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
     font-style: italic;
     padding-top: 26px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
 }
 
 .links {
-    padding-top: 26px;
+    padding-top: 10px;
+    text-align: center;
   }
 
 .links a {
+    font-size: 20px;
+    border: 2px solid #006600;
+    border-radius: 5px;
+    background-color: transparent;
     color: black;
-    font-size: 25px;
-    border-bottom: 1px solid #dfdfdf;
+    font-weight: bold;
+    text-decoration: none;
+    margin : 10px;
+    padding: 5px 20px 10px 20px;
+    display: inline-block;
   }
 
+.links a:hover {
+    border: 2px solid #006600;
+    background-color: #f84342;
+    color: #FFF;
+}
+
   header {
-    border-top: 9px solid #222222;
+    border-top: px solid #FFF;
   }
 
   hr {

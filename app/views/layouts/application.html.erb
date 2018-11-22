@@ -11,7 +11,7 @@
 
   <body>
     <header class="row">
-      <div>
+      <div class="col-3">
        <%= link_to root_path, class: 'logo' do %>
         <div class="circle">
           <br />
@@ -26,10 +26,9 @@
       <div class="col col-sm-4 hidden-xs-down slogan">
         Splurting out funny sports quotes since 2018
       </div>
-       <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
-        <%= link_to 'Add a funny quote', '#', data: {toggle: 'modal', target: '#myModal'}  %>
-          &nbsp;&nbsp;
-        <%= link_to 'About', about_path %>
+       <div class="col-10 offset-1 offset-sm-0 col-sm-5 links greenButtonRound">
+          <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'}  %>
+          <%= link_to 'About', about_path %>
       </div>
     </header>
 
@@ -77,7 +76,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-6"> 
-              <%= link_to "This isn't enough, I need more!", root_path, class: 'next-quote'%>
+              <%= link_to "Click Here for More!", root_path, class: 'next-quote'%>
           </div>
           <div class="col-12 col-sm-6 footer-blurb">
             Built by <a href="https://www.linkedin.com/in/claudwin-fortune/">Claudwin Fortune</a>
